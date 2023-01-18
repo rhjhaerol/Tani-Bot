@@ -1,0 +1,308 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hallo",
+        "hai",
+        "halo",
+        "hei",
+        "hi",
+        "hy",
+        "pagi",
+        "morning",
+        "siang",
+        "afternoon",
+        "sore",
+        "malam",
+        "bro",
+        "sis",
+        "kawan"
+      ],
+      "responses": [
+        "Hai! TaniBot di sini. Mau tau informasi tentang apa nih?",
+        "Halo! Saya TaniBot, salam kenal ya! Mau tau tentang pertanian di desa paketingan?",
+        "Hi! TaniBot disini. Mau tau informasi tentang apa nih?",
+        "Helo! Ini TaniBot. Lagi kepo tentang pertanian di desa paketingan ya?"
+
+      ]
+    },
+    {
+      "tag": "TaniBot",
+      "patterns": [
+        "Apa itu TaniBot?",
+        "Siapa TaniBot?"
+      ],
+      "responses": [
+        "TaniBot adalah aplikasi chatbot informasi tentang Pertanian yang ada di Desa Paketingan!",
+        "TaniBot itu adalah teman informasi kamu tentang Pertanian!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dah",
+        "Dadah",
+        "Bye",
+        "Byee",
+        "Good bye",
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "Bai",
+        "See you"
+      ],
+      "responses": [
+        "Bye!",
+        "Dadahh!",
+        "Good bye!",
+        "Dahh, semoga harimu menyenangkan yaa!",
+        "Sampai jumpa lagi!",
+        "See u! Senang bisa membantu"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": [
+        "Dengan senang hati :)",
+        "Sama-sama yaa"
+      ]
+    },
+    {
+      "tag": "sistem_pertanian_paketingan",
+      "patterns": [
+        "Bagaimana sistem pertanian di desa paketingan?",
+        "Sistem pertanian di desa paketingan bagaimana?"
+      ],
+      "responses": [
+        "Untuk sementara ini adanya kelompok tani saja namanya yaitu kelompok tani Gemahripah. Kelompok tani tersebut biasanya mengadakan penyuluhan bagaimana cara menanam dan menggarap sawah pada musim tanam rendeng hingga sadon. Untuk koprasi dulu sempat ada namun untuk saat ini sementara off dan hanya ada kelompok tani saja."
+      ]
+    },
+    {
+      "tag": "jenis_bibit",
+      "patterns": [
+        "Apa jenis bibit yang ditanam di lahan desa paketingan?",
+        "Apa jenis bibit yang ditanam?",
+        "Jenis bibit apa yang ditanam?"
+      ],
+      "responses": [
+        "Di desa Paketingan untuk bibit unggulan 80% menggunkan ketan rosben, 20% lainnya menggunkan pari HT dan IR."
+      ]
+    },
+    {
+      "tag": "proses_menanam_padi",
+      "patterns": [
+        "Bagaimana proses menanam padi?",
+        "proses tanam padi bagaimana?"
+      ],
+      "responses": [
+        "Pengelolaan tanah pakai mesin tlaktor, setelah sekitar 15 hari melakukan penyemean mau di tabur benih padi. Kemudian melakukan penabuhan benih, lahan 1 hektar (1bau/700 m2) menggunakan bibit sekitar 20kg. Kemudian proses penyemean sampai musim tanam sekitar 23 hari. Setelah itu lahan yang sudah bagus sudah rata dan siap ditanami. Lahan yang sudah siap kemudian ditanami benih padi, musim tanam hingga musim panen memakan waktu sekitar 110 hari."
+      ]
+    },
+    {
+      "tag": "lama_panen",
+      "patterns": [
+        "Berapa lama waktu panen padi?",
+        "berapa lama padi panen?"
+      ],
+      "responses": [
+        "Memakan waktu sekitar 110 hari"
+      ]
+    },
+    {
+      "tag": "berapa_kali_panen",
+      "patterns": [
+        "Berapa kali dalam 1 tahun bisa panen?"
+      ],
+      "responses": [
+        "Di desa paketingan dalam 1 tahun bisa panen 2-3x. terkadang 2x panen pada 2 musim yang berarti dalam 1 tahun terdapat 2x panen, tidak jarang juga bisa sampai mencapai 3x panen."
+      ]
+    },
+    {
+      "tag": "kendala_petani",
+      "patterns": [
+        "Apa kendala yang sering di alami petani?"
+      ],
+      "responses": [
+        "Kendala yang sering di alami para petani di desa Paketingan yaitu persoalan mengenai hama. Paling sering dan sangat merugikan yang mengakibatkan gagal panen yaitu hama wereng dan hama tikus."
+      ]
+    },
+    {
+      "tag": "penanggulangan_hama",
+      "patterns": [
+        "Bagaimana cara penanggulangan hama?"
+      ],
+      "responses": [
+        "Cara penanggulangan hama tersebut biasanya menggunakan obat kimia, mayoritas petani di desa paketingan menggunakan obat merek Plenum yang sangat bagus dan ampuh untuk menanggulani hama, dengan takaran 1 kemasan seharga 200rb mencakup untuk sawah dengan lahan 1 bau."
+      ]
+    },
+    {
+      "tag": "pembajakan_sawah",
+      "patterns": [
+        "Bagaimana sistem pembajakan sawah di desa paketingan?"
+      ],
+      "responses": [
+        "Pembajakan sawah di desa paketingan sudah modern yaitu menggunkan alat traktor."
+      ]
+    },
+    {
+      "tag": "perairan_sawah",
+      "patterns": [
+        "Bagaimana sistem perairan di desa paketingan?"
+      ],
+      "responses": [
+        "Di desa paketingan perairan sangat melimpah yaitu dari curah hujan, irigasi, dan sungai. Pada musim kemarau perairan sawah menggunakan irigasi"
+      ]
+    },
+    {
+      "tag": "sumber_perairan_sawah",
+      "patterns": [
+        "Apa sumber perairan sawah di desa paketingan?"
+      ],
+      "responses": [
+        "Di desa paketingan perairan sangat melimpah yaitu dari curah hujan, irigasi, dan sungai"
+      ]
+    },
+    {
+      "tag": "jenis_pupuk",
+      "patterns": [
+        "Apa saja jenis pupuk yang digunakan?"
+      ],
+      "responses": [
+        "Penggunaan pupuk menggunakan pupuk kimia, merek yang paling bagus dan sering digunakan di desa paketingan yaitu pupuk merek ponsta atau urea. Pupuk yang digunakan kebanyakan pupuk kimia tidak menggunakan jenis pupuk organic. Masih terdapat petani yang menggunakan pupuk organic namun Sebagian besar petani sudah beralih menggunakan pupuk kimia karena dianggap lebih mumpuni muntuk mengusir hama."
+      ]
+    },
+    {
+      "tag": "memantau_padi",
+      "patterns": [
+        "Berapa kali petani ke sawah untuk memantau kondisi padi?"
+      ],
+      "responses": [
+        "Hampir setiap hari untuk melihat atau mengecek kondisi sawah yang akan di panen, karena padi yang hamper panen sangat rawan sekali terkena hama wereng dan tikus ditambah lagi banyak burung yang bisa memakani padi nah burung tersebut harus di usir biasanya menggunakan alat manual yaitu penarikan tali yang terdapat lonceng untuk mengusir burung tersebut."
+      ]
+    },
+    {
+      "tag": "perawatan_sawah",
+      "patterns": [
+        "Bagaimana cara perawatan sawah agar terhindar dari hama?"
+      ],
+      "responses": [
+        "Cara perawatannya yaitu manual. Perawatan tanah dari suket setelah ditanami sekitar 20 hari menggunakan system manual (dicabuti)."
+      ]
+    },
+    {
+      "tag": "target_pasar",
+      "patterns": [
+        "Siapa target pasar dari hasil pertanian?"
+      ],
+      "responses": [
+        "Untuk target pasarnya sendiri yaitu ke tengkulak (pengepul padi) kemudian dari tengkulak tersebut baru di salurkan ke mana-mana/ke orang-orang."
+      ]
+    },
+    {
+      "tag": "persentasi_hasil_panen",
+      "patterns": [
+        "Berapa persentase penggunaan hasil panen?"
+      ],
+      "responses": [
+        "Mayoritas petani disini yaitu 70% dijual 30% untuk dikonsumsi sendiri"
+      ]
+    },
+    {
+      "tag": "ciri_hama_wereng",
+      "patterns": [
+        "Bagaimana ciri-ciri tanaman padi yang terserang hama wereng?"
+      ],
+      "responses": [
+        "Cirinya yaitu terdapat bitnik hitam, kaku dan tidak subur karena bercak merah pada daun padi."
+      ]
+    },
+    {
+      "tag": "penanggulangan_hama_wereng",
+      "patterns": [
+        "Bagaimana cara penanggulangan hama wereng?"
+      ],
+      "responses": [
+        "Cara penanggulangannya yaitu dengan obat kimia, di semprotkan ke daun padi"
+      ]
+    },
+    {
+      "tag": "ciri_hama_tikus",
+      "patterns": [
+        "Bagaimana ciri-ciri tanaman padi yang terserang hama tikus?"
+      ],
+      "responses": [
+        "Cirinya yaitu tanaman habis dan rusak"
+      ]
+    },
+    {
+      "tag": "penanggulangan_hama_tikus",
+      "patterns": [
+        "Bagaimana cara penanggulangan hama tikus?"
+      ],
+      "responses": [
+        "Cara penanggulangannya yaitu dengan mengadakan kerja bakti memburu tikus-tikus di sawah."
+      ]
+    },
+    {
+      "tag": "penyebab_gagal_panen",
+      "patterns": [
+        "Apa penyebab dari gagal panen?"
+      ],
+      "responses": [
+        "Kadang hama yang kuat dalam menggagalkan panen di desa paketingan ini yaitu hama tikus, hama tersebut paling sulit untuk di tanangi karena buah padi di makani oleh hama tikus."
+      ]
+    },
+    {
+      "tag": "mengolah_padi_beras",
+      "patterns": [
+        "Bagaimana cara mengolah padi agar menjadi beras?"
+      ],
+      "responses": [
+        "Proses pengolahan padi yang baru dipanen agar menjadi beras yaitu panen kemudian di jemur matahari selama 3 hari, setelah proses penjemuran disimpan terlebih dahulu, setelah proses penyimpanan baru di proses di selipan yaitu padi diselip untuk memisahkan kulit dengan buahnya (beras)."
+      ]
+    },
+    {
+      "tag": "jenis_tanah",
+      "patterns": [
+        "Bagaimana jenis tanah persawahan di desa paketingan?"
+      ],
+      "responses": [
+        "Jenis tanah di paketingan hanya cocok untuk menanam padi, penanaman palawija tidak cocok."
+      ]
+    },
+    {
+      "tag": "lama_panen_dari_hamil",
+      "patterns": [
+        "Berapa lama padi panen dari padi hamil?"
+      ],
+      "responses": [
+        "Padi dari proses penanaman hingga hamil yaitu 60 hari, 70 hari sudah mulai membesar atau berisi, 80 hari padi sudah meratak, dan +20 hari padi siap panen."
+      ]
+    },
+    {
+      "tag": "pemisahan_padi",
+      "patterns": [
+        "Bagaimana cara pemisahan pohon padi?"
+      ],
+      "responses": [
+        "Proses pemisahan damen (pohon padi) dengan buah padi yaitu menggunakan mesin tleser."
+      ]
+    },
+    {
+      "tag": "harga_padi",
+      "patterns": [
+        "Berapa harga jual padi?"
+      ],
+      "responses": [
+        "Jika tergolong padi bagus bisa dijual dengan harga mencapai 20 juta. Apabila padi kurang bagus bisa dijual dengan harga 18 juta"
+      ]
+    }  
+  ]
+}
